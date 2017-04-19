@@ -3,6 +3,14 @@
 	<head>
 		<script type="text/javascript">
 		<!--
+		function prompter() {
+		var reply = prompt("Wot be ur nam m9", "")
+		alert ( "shoot me " + reply + "!")
+		}
+		//-->
+		</script>
+		<script type="text/javascript">
+		<!--
 		function myPopup() {
 		window.open( "http://www.slipknot1.com" )
 		}
@@ -19,6 +27,7 @@
 		<title>INDEX</title>
 	</head>
 	<body>
+		<input type="button" onclick="prompter()" value="What's your name?">
 		<form>
 		<input type="button" value="Print This Page" onClick="window.print()" />
 		</form>
