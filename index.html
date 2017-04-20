@@ -3,9 +3,16 @@
 	<head>
 		<script type="text/javascript">
 		<!--
+		function popup() {
+  		  alert("Welcome to my web page! Feel free to look around!")
+		}
+		//-->
+		</script>
+		<script type="text/javascript">
+		<!--
 		function prompter() {
-		var reply = prompt("Wot be ur nam m9", "")
-		alert ( "plz log off thee eternet " + reply + "!")
+		var reply = prompt("Whats your name?", "")
+		alert ( "Hey," + reply + ", want to see something cool? press CTRL, ALT, and Delete at the same time!")
 		}
 		//-->
 		</script>
@@ -27,6 +34,7 @@
 		<title>INDEX</title>
 	</head>
 	<body>
+		<input type="button" onclick="popup()" value="popup">
 		<input type="button" onclick="prompter()" value="What's your name?">
 		<form>
 		<input type="button" value="Print This Page" onClick="window.print()" />
